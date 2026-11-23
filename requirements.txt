@@ -1,0 +1,35 @@
+# deep learning / ML
+torch>=2.3
+torchvision>=0.18
+opencv-python>=4.9
+numpy
+pandas
+scikit-learn>=1.4
+lightgbm>=4.3
+matplotlib
+pillow
+tqdm
+
+# RAG
+langchain>=1.0
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+sentence-transformers
+faiss-cpu
+rank-bm25
+
+# agent + MCP
+langgraph>=1.0
+mcp>=1.9
+langchain-mcp-adapters>=0.1
+
+# LLM provider: install the one matching LLM_MODEL
+langchain-ollama      # LLM_MODEL=ollama:llama3.1:8b   (free, local)
+# langchain-openai    # LLM_MODEL=openai:gpt-4o-mini
+# langchain-anthropic # LLM_MODEL=anthropic:<model-name>
+
+# UI + tests
+streamlit>=1.40
+pytest
